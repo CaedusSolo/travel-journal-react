@@ -1,3 +1,6 @@
+This is an ongoing project using React JS, as part of a Solo Project in Scrimba's Frontend Developer Career Path.
+
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
