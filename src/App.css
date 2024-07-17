@@ -39,11 +39,12 @@ body {
 }
 
 .destinations--container {
-  padding: 2em;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding: 1.5em;
+  margin: 0 auto;
 }
 
 .destination {
