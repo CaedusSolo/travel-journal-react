@@ -1,9 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+  background-color: #B3A9BC;
+  font-family: "Inter", sans-serif;
+}
+
 #root {
-  max-width: 1280px;
+  min-width: 100vw;
+  min-height: 100vh;
   margin: 0 auto;
-  padding: 2rem;
   text-align: center;
   background-color: white;
   color: black;
 }
 
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5em;
+  background: #F55A5A;
+  width: 100%;
+  padding: 0.7em;
+  color: white;
+}
+
+.header > p {
+  font-size: 0.8rem;
+}
+
+.destinations--container {
+  padding: 2em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.destination {
+  margin: 0.5em auto;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 1.5em;
+}
+
+.destination--img {
+  min-width: 18vw;
+  min-height: 25vh;
+  border-radius: 5px;
+  max-width: 20vw;
+}
+
+.destination--details {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  height: 100%;
+}
+
+.location--details {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+
+.location--details > i {
+  color: red;
+  padding-right: 0.25em;
+}
+
+.location--details > h4 {
+  padding-right: 1em;
+  font-weight: 500;
+  letter-spacing: 1.2px;
+}
+
+.location--details a {
+  color: #918E9B;
+}
+
+.destination--name {
+  margin: 0.35em 0 0.75em 0;
+  font-size: 1.25em;
+  font-weight: 800;
+  letter-spacing: 1.1px;
+}
+
+.destination--date {
+  font-size: 1em;
+  font-weight: 600;
+  margin: 0 0 0.35em 0;
+}
+
+.destination--description {
+  text-align: left;
+  font-size: 0.9em;
+}
