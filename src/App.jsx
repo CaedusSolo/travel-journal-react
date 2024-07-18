@@ -1,6 +1,7 @@
 import './App.css'
 import Header from './components/Header'
 import Destination from "./components/Destination"
+import Footer from "./components/Footer"
 import destinationsData from "./data"
 
 function App() {
@@ -10,12 +11,14 @@ function App() {
             destination={destination}
     />
   })
+  
   return (
     <div className='app--container'>
       <Header />
       <div className="destinations--container">
         {destinations}
       </div>
+      <Footer />
     </div>
   )
 }

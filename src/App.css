@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  user-select: none;
 }
 
 body {
@@ -10,7 +11,7 @@ body {
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
-  background-color: #B3A9BC;
+  background-color: white;
   font-family: "Inter", sans-serif;
 }
 
@@ -63,7 +64,6 @@ body {
   justify-content: flex-start;
   align-items: center;
   gap: 1.5em;
-  flex-wrap: wrap;
   width: 100%;
 }
 
@@ -119,4 +119,11 @@ body {
 .destination--description {
   text-align: left;
   font-size: 0.9em;
+}
+
+.footer {
+  background-color: gainsboro;
+  min-width: 100%;
+  padding: 1.25em;
+  font-weight: 500;
 }
