@@ -127,3 +127,40 @@ body {
   padding: 1.25em;
   font-weight: 500;
 }
+
+/*  Responsive design media queries  */
+
+@media screen and (min-width: 600px) {
+  .destination--img {
+    max-height: 200px;
+    max-width: 100px;
+  }
+}
+
+@media screen and (min-width: 700px) {
+  .destination {
+    gap: 2em;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .destination {
+    gap: 3em;
+  }
+
+  .destination--img {
+    max-height: 225px;
+  }
+
+  .destination--description {
+    font-size: 1rem;
+  }
+
+  .destination--name {
+    font-size: 1.6rem;
+  }
+
+  .destinations--container {
+    padding: 2em 4em;
+  }
+}
