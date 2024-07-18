@@ -21,6 +21,8 @@ body {
   text-align: center;
   background-color: white;
   color: black;
+  display: flex;
+  flex-direction: column;
 }
 
 .header {
@@ -38,6 +40,13 @@ body {
   font-size: 0.8rem;
 }
 
+.app--container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .destinations--container {
   display: flex;
   flex-direction: column;
@@ -45,14 +54,17 @@ body {
   align-items: center;
   padding: 1.5em;
   margin: 0 auto;
+  gap: 1em;
 }
 
 .destination {
   margin: 0.5em auto;
   display: flex;
-  justify-content: start;
+  justify-content: flex-start;
   align-items: center;
   gap: 1.5em;
+  flex-wrap: wrap;
+  width: 100%;
 }
 
 .destination--img {
